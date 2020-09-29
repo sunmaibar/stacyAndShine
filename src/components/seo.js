@@ -41,7 +41,6 @@ const SEO = ({ title, description, image, article }) => {
       {seo.description && <meta name="twitter:description" content={seo.description} />}
 
       {seo.image && <meta name="twitter:image" content={seo.image} />}
-      <link rel="icon" href="../images/gatsby-icon.ico" />
     </Helmet>
   )
 }

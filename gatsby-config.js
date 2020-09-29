@@ -11,8 +11,7 @@ module.exports = {
     titleTemplate: `%s | 心靈成長空間`,
     url: `https://www.stacyandshine.com`,
     image: `mainBcg.png`,
-    twitterUsername: `@john_doe`,
-    icon: `gatsby-icon.ico`
+    twitterUsername: `@john_doe`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -26,6 +25,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
@@ -43,6 +43,7 @@ module.exports = {
         ]
       }
     },
+
     {
       resolve: `gatsby-source-airtable`,
       options: {
