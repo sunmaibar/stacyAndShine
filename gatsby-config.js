@@ -4,11 +4,11 @@ require("dotenv").config({
 // const queries = require("./src/constants/algolia")
 module.exports = {
   siteMetadata: {
-    title: `Design Shop`,
-    description: `Gatsby Airtable Example. Built using Airtable, Algolia Search, Gatsby Background Image plugin and  React Context API. Containts two sliders, real-time Airtable updates and submenus. Styled using Styled-Components. `,
+    title: `從心生活坊`,
+    description: `新北市三重區重新路四段242號，從心工作坊，心靈空間，心靈啟發，親子活動學習，瑜珈教室，芳香山林森息精油，空間利用，教室利用，希塔療癒，定期舉辦不同課程。 `,
     author: `@jimmy_liao`,
     titleTemplate: `%s | 心靈成長空間`,
-    url: `https://gatsby-airtable-design-project.netlify.app/`,
+    url: `https://www.stacyandshine.com`,
     image: `mainBcg.png`,
     twitterUsername: `@john_doe`
   },

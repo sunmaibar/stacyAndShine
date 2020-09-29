@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="nav-center">
         <div className="nav-header">
           <Link to="/">
-            <h3>從心坊間</h3>
+            <h3>從心生活坊</h3>
           </Link>
           <Link to="https://www.facebook.com/%E6%84%9B%E5%88%86%E4%BA%AB-%E5%85%B1%E7%94%A8%E7%A9%BA%E9%96%93-119327963243791">
             <button>FB粉絲頁</button>

@@ -8,7 +8,7 @@ const HomePage = ({ data }) => {
   } = data
   return (
     <Layout>
-      <SEO title="從心坊間" description="心靈啟發，瑜珈伸展，讀書會，空間出租，愛分享" />
+      <SEO title="從心生活坊" description="心靈啟發，瑜珈伸展，讀書會，空間出租，愛分享" />
       <Hero projects={projects} />
       <About />
       <Projects title="最新活動" projects={projects} />
