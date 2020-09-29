@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="nav-center">
         <div className="nav-header">
           <Link to="/">
-            <h3>從心生活坊</h3>
+            <h2>從心生活坊</h2>
           </Link>
           <Link to="https://www.facebook.com/%E6%84%9B%E5%88%86%E4%BA%AB-%E5%85%B1%E7%94%A8%E7%A9%BA%E9%96%93-119327963243791">
             <button>FB粉絲頁</button>
@@ -20,9 +20,9 @@ const Navbar = () => {
             <GoThreeBars />
           </button> */}
         </div>
-        <ul className="nav-links">
+        {/* <ul className="nav-links">
           <li></li>
-        </ul>
+        </ul> */}
       </div>
     </Wrapper>
   )
@@ -48,8 +48,9 @@ const Wrapper = styled.nav`
     img {
       width: auto;
     }
-    h3 {
+    h2 {
       color: white;
+      font-size: 1.9rem;
     }
     button {
       color: var(--clr-white);
@@ -62,6 +63,7 @@ const Wrapper = styled.nav`
       width: 100%;
       text-transform: capitalize;
       position: relative;
+      margin-bottom: 0.5rem;
     }
 
     /* .toggle-btn {
