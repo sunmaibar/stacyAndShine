@@ -23,6 +23,6 @@ export default [
     id: 4,
     icon: <GiBriefcase className="icon" />,
     label: "空間租用",
-    text: "180坪大空間，適合聚會，授課場地租用，歡迎聯絡洽詢。蔡小姐：093X-xxx-xxx"
+    text: "180坪大空間，適合聚會，授課場地租用，歡迎聯絡洽詢。0988-910-080 蔡小姐"
   }
 ]

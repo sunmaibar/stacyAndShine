@@ -30,7 +30,7 @@ const Hero = ({ projects }) => {
         <article>
           <h3>If you can dream it, we can create it</h3>
           <h1>空間創造您的想像</h1>
-          <h5>新北市三重區重新路四段242號 電話： 02-2450-1234</h5>
+          <h5>新北市三重區重新路四段242號 電話： 0988-910-080 蔡小姐</h5>
 
           <Link to="/projects">參觀一下</Link>
         </article>
