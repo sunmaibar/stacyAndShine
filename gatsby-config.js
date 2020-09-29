@@ -5,14 +5,14 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `從心生活坊`,
-    description: `新北市三重區重新路四段242號，從心工作坊，心靈空間，心靈啟發，親子活動學習，瑜珈教室，芳香山林森息精油，空間利用，教室利用，希塔療癒，定期舉辦不同課程。 `,
+    description: `從心工作坊，心靈空間，心靈啟發，親子活動學習，瑜珈教室，芳香山林森息精油，空間利用，教室利用，希塔療癒，定期舉辦不同課程，新北市三重區重新路四段242號。 `,
     author: `@jimmy_liao`,
-    keywords: `精油,芳療,瑜珈,希塔療癒,空間場地,三重重新路四段,親子學習,共學,讀書會,心靈成長`,
+    keywords: `精油,芳療,瑜珈,希塔療癒,空間場地,三重重新路四段,親子學習,共學,讀書會,心靈成長,stacyandshine,從心生活坊`,
     titleTemplate: `%s | 心靈成長空間`,
     url: `https://www.stacyandshine.com`,
     image: `mainBcg.png`,
     twitterUsername: `@john_doe`,
-    icon: `gatsby-icon.png`
+    icon: `gatsby-icon.ico`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
