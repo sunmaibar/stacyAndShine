@@ -12,7 +12,7 @@ module.exports = {
     url: `https://www.stacyandshine.com`,
     image: `mainBcg.png`,
     twitterUsername: `@john_doe`,
-    icon: `favicon (5).ico`
+    icon: `gatsby-icon.png`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
