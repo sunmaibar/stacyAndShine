@@ -11,7 +11,8 @@ module.exports = {
     titleTemplate: `%s | 心靈成長空間`,
     url: `https://www.stacyandshine.com`,
     image: `mainBcg.png`,
-    twitterUsername: `@john_doe`
+    twitterUsername: `@john_doe`,
+    favicon: `./static/favicon.ico`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -23,8 +24,17 @@ module.exports = {
         path: `${__dirname}/src/images`
       }
     },
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://www.stacyandshine.com",
+        sitemap: "https://www.stacyandshine.com/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }]
+      }
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
