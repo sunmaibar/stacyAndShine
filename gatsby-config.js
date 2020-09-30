@@ -9,6 +9,7 @@ module.exports = {
     author: `@jimmy_liao`,
     keywords: `精油,芳療,瑜珈,希塔療癒,空間場地,三重重新路四段,親子學習,共學,讀書會,心靈成長,stacyandshine,從心生活坊`,
     titleTemplate: `%s | 心靈成長空間`,
+    siteUrl: `https://www.stacyandshine.com/`,
     url: `https://www.stacyandshine.com/`,
     image: `mainBcg.png`,
     twitterUsername: `@john_doe`,
@@ -34,6 +35,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-social-cards`,
 
     {
