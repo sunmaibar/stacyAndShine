@@ -4,8 +4,8 @@ export default [
   {
     id: 1,
     icon: <GiCompass className="icon" />,
-    label: "地理位置",
-    text: " 一個神秘的小天地，新北市三重重新路四段242號。 "
+    label: "探索世界",
+    text: " 都市中的綠色療癒花園，都市裡的一隅世外桃源，走進這個空間進入自己內心。 "
   },
   {
     id: 2,
@@ -23,6 +23,6 @@ export default [
     id: 4,
     icon: <GiBriefcase className="icon" />,
     label: "空間租用",
-    text: "180坪大空間，適合聚會，授課場地租用，歡迎聯絡洽詢。0988-910-080 蔡小姐"
+    text: "60坪大空間，適合聚會，授課場地租用，歡迎聯絡洽詢。0988-910-080 蔡小姐"
   }
 ]
