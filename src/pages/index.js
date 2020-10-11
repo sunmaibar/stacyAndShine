@@ -8,7 +8,20 @@ const HomePage = ({ data }) => {
   } = data
   return (
     <Layout>
-      <SEO title="從心生活坊" description="心靈啟發，瑜珈伸展，讀書會，空間出租，希塔療癒課程，親子共遊活動，愛分享" />
+      <SEO
+        title="從心生活坊"
+        description="新北市三重區空間出租，適合辦生日party
+租借場地慶生，抓週各種活動
+瑜伽（寶寶，親子，大人），精油芳療
+希塔開課
+療癒
+天使解讀
+塔羅
+命理紫微
+親子座談會
+品酒會
+水晶解讀，脈輪開通"
+      />
       <Hero projects={projects} />
       <About />
       <Projects title="最新活動" projects={projects} />
