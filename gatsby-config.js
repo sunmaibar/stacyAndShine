@@ -102,6 +102,7 @@ module.exports = {
             family: `Caveat`,
           },
         ],
+        display: 'swap',
       },
     },
 
