@@ -87,24 +87,24 @@ module.exports = {
     //     },
     //   },
     // },
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Roboto`,
-            variants: [`400`, `500`, `700`],
-          },
-          {
-            family: `Open Sans`,
-          },
-          {
-            family: `Caveat`,
-          },
-        ],
-        display: 'swap',
-      },
-    },
+
+    // {
+    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       {
+    //         family: `Roboto`,
+    //         variants: [`400`, `500`, `700`],
+    //       },
+    //       {
+    //         family: `Open Sans`,
+    //       },
+    //       {
+    //         family: `Caveat`,
+    //       },
+    //     ],
+    //   },
+    // },
 
     {
       resolve: `gatsby-source-airtable`,
