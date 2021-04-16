@@ -1,5 +1,5 @@
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
 })
 // const queries = require("./src/constants/algolia")
 module.exports = {
@@ -13,7 +13,7 @@ module.exports = {
     url: `https://www.stacyandshine.com/`,
     image: `mainBcg.png`,
     twitterUsername: `@john_doe`,
-    favicon: `./static/favicon.ico`
+    favicon: `./static/favicon.ico`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -22,16 +22,16 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`
-      }
+        path: `${__dirname}/src/images`,
+      },
     },
     {
-      resolve: "gatsby-plugin-robots-txt",
+      resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: "https://www.stacyandshine.com",
-        sitemap: "https://www.stacyandshine.com/sitemap.xml",
-        policy: [{ userAgent: "*", allow: "/" }]
-      }
+        host: 'https://www.stacyandshine.com',
+        sitemap: 'https://www.stacyandshine.com/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }],
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -41,29 +41,29 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-160345609-2",
+        trackingId: 'UA-160345609-2',
 
         head: true,
 
-        anonymize: true
-      }
+        anonymize: true,
+      },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-prefetch-google-fonts-v2`,
       options: {
         fonts: [
           {
             family: `Roboto`,
-            variants: [`400`, `500`, `700`]
+            variants: [`400`, `500`, `700`],
           },
           {
-            family: `Open Sans`
+            family: `Open Sans`,
           },
           {
-            family: `Caveat`
-          }
-        ]
-      }
+            family: `Caveat`,
+          },
+        ],
+      },
     },
 
     {
@@ -75,15 +75,15 @@ module.exports = {
           {
             baseId: process.env.GATSBY_AIRTABLE_BASE_ID,
             tableName: `Projects`,
-            mapping: { image: `fileNode` }
+            mapping: { image: `fileNode` },
           },
           {
             baseId: process.env.GATSBY_AIRTABLE_BASE_ID,
             tableName: `Customers`,
-            mapping: { image: `fileNode` }
-          }
-        ]
-      }
-    }
-  ]
+            mapping: { image: `fileNode` },
+          },
+        ],
+      },
+    },
+  ],
 }
