@@ -1,14 +1,14 @@
-import React from "react"
-import Background from "./Background"
-import styled from "styled-components"
-import { Link } from "gatsby"
-import { FiChevronRight, FiChevronLeft } from "react-icons/fi"
+import React from 'react'
+import Background from './Background'
+import styled from 'styled-components'
+import { Link } from 'gatsby'
+import { FiChevronRight, FiChevronLeft } from 'react-icons/fi'
 const Hero = ({ projects }) => {
-  const images = projects.map(item => {
+  const images = projects.map((item) => {
     const {
       data: {
-        image: { localFiles }
-      }
+        image: { localFiles },
+      },
     } = item
     const image = localFiles[0].childImageSharp.fluid
     return image
@@ -30,20 +30,26 @@ const Hero = ({ projects }) => {
         <article>
           <h3>If you can dream it, we can create it</h3>
           <h1>空間創造您的想像</h1>
-          <h4>新北市三重區重新路四段242號</h4>
+          <h4>新北市三重區重新路四段226號</h4>
           <h4>電話:0988-910-080蔡小姐</h4>
 
-          <Link to="/projects">參觀一下</Link>
+          <Link to='/projects'>參觀一下</Link>
         </article>
-        <button className="prev-btn" onClick={() => setIndex(index - 1)}>
+        <button className='prev-btn' onClick={() => setIndex(index - 1)}>
           <FiChevronLeft />
         </button>
-        <button className="next-btn" onClick={() => setIndex(index + 1)}>
+        <button className='next-btn' onClick={() => setIndex(index + 1)}>
           <FiChevronRight />
         </button>
-        <div className="dots">
+        <div className='dots'>
           {images.map((_, btnIndex) => {
-            return <span onClick={() => setIndex(btnIndex)} key={btnIndex} className={index === btnIndex ? "active" : undefined}></span>
+            return (
+              <span
+                onClick={() => setIndex(btnIndex)}
+                key={btnIndex}
+                className={index === btnIndex ? 'active' : undefined}
+              ></span>
+            )
           })}
         </div>
       </Background>
@@ -66,7 +72,7 @@ const Wrapper = styled.section`
     }
     h3 {
       font-weight: 400;
-      font-family: "Caveat", cursive;
+      font-family: 'Caveat', cursive;
     }
     h4 {
       margin-bottom: 1.5rem;
