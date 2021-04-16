@@ -37,6 +37,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-social-cards`,
+    `gatsby-plugin-preload-fonts`,
 
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -48,8 +49,46 @@ module.exports = {
         anonymize: true,
       },
     },
+    // {
+    //   resolve: `gatsby-plugin-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       {
+    //         family: `Roboto`,
+    //         variants: [`400`, `500`, `700`],
+    //       },
+    //       {
+    //         family: `Open Sans`,
+    //       },
+    //       {
+    //         family: `Caveat`,
+    //       },
+    //     ],
+    //     display: 'swap',
+    //   },
+    // },
+
+    // {
+    //   resolve: `gatsby-plugin-webfonts`,
+    //   options: {
+    //     fonts: {
+    //       google: [
+    //         {
+    //           family: `Roboto`,
+    //           variants: [`400`, `500`, `700`],
+    //         },
+    //         {
+    //           family: `Open Sans`,
+    //         },
+    //         {
+    //           family: `Caveat`,
+    //         },
+    //       ],
+    //     },
+    //   },
+    // },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts-v2`,
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
         fonts: [
           {
