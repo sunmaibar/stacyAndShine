@@ -1,14 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import {
-  Layout,
-  Hero,
-  About,
-  Projects,
-  Survey,
-  Slider,
-  GridProjects,
-} from '../components'
+import { Layout, Hero, About, Projects, Survey, Slider } from '../components'
 import SEO from '../components/seo'
 const HomePage = ({ data }) => {
   const {
@@ -17,7 +9,7 @@ const HomePage = ({ data }) => {
   return (
     <Layout>
       <SEO
-        title='從心生活坊'
+        title='Eternal Space'
         description='新北市三重區空間出租，適合辦生日party
 租借場地慶生，抓週各種活動
 瑜伽（寶寶，親子，大人），精油芳療

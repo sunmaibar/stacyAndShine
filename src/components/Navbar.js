@@ -1,19 +1,19 @@
-import React, { useContext } from "react"
-import styled from "styled-components"
+import React from 'react'
+import styled from 'styled-components'
 // import logo from "../images/logo.svg"
-import { GoThreeBars } from "react-icons/go"
-import { Link } from "gatsby"
-import NavLink from "./NavLink"
+// import { GoThreeBars } from "react-icons/go"
+import { Link } from 'gatsby'
+// import NavLink from "./NavLink"
 
 const Navbar = () => {
   return (
     <Wrapper>
-      <div className="nav-center">
-        <div className="nav-header">
-          <Link to="/">
-            <h2>從心生活坊</h2>
+      <div className='nav-center'>
+        <div className='nav-header'>
+          <Link to='/'>
+            <h2>Eternal Space</h2>
           </Link>
-          <Link to="https://www.facebook.com/%E6%84%9B%E5%88%86%E4%BA%AB-%E5%85%B1%E7%94%A8%E7%A9%BA%E9%96%93-119327963243791">
+          <Link to='https://www.facebook.com/%E6%84%9B%E5%88%86%E4%BA%AB-%E5%85%B1%E7%94%A8%E7%A9%BA%E9%96%93-119327963243791'>
             <button>FB粉絲頁</button>
           </Link>
           {/* <button className="toggle-btn">

@@ -1,16 +1,16 @@
-import React from "react"
-import { graphql } from "gatsby"
-import styled from "styled-components"
-import { Layout, Projects, Algolia } from "../components"
+import React from 'react'
+import { graphql } from 'gatsby'
+import styled from 'styled-components'
+import { Layout, Projects } from '../components'
 
 const ProjectsPage = ({ data }) => {
   const {
-    allAirtable: { nodes: projects }
+    allAirtable: { nodes: projects },
   } = data
   return (
     <Wrapper>
       <Layout>
-        <Projects title="我們的活動" projects={projects} page />
+        <Projects title='我們的活動' projects={projects} page />
       </Layout>
     </Wrapper>
   )
